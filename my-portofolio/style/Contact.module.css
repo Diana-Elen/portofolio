@@ -1,5 +1,13 @@
+.contact_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
 .contact_data {
     background-color: pink;
-    width: 15vw;
+    width: 20vw;
     padding-inline: 1rem;
+    font-weight: bold;
 }
