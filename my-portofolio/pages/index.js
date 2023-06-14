@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from "../style/Background.module.css"
 import About from '@/components/About'
 import Navbar from '@/components/Navbar'
+import Contact from '@/components/Contact'
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <div className={styles.background}>
       <Navbar />
+      <Contact />
       <About />
       </div>
     </>
