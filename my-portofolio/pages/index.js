@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from "../style/Background.module.css"
 import About from '@/components/About'
-import Button from '@/components/Button'
+import Navbar from '@/components/Navbar'
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div className={styles.background}>
         <About />
-        <Button />
+        <Navbar />
         
 
 
