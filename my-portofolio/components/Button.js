@@ -1,6 +1,6 @@
 export default function Button() {
     return <>
-    <button>
+    <button type="button">
         home
     </button>
     </>
