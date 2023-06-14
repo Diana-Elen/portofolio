@@ -3,3 +3,14 @@
     font-size: 2rem;
     font-weight: bold;
 }
+.description {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 40vw;
+    padding: 1rem;
+}
+.description p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

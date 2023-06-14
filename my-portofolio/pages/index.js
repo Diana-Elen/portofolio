@@ -14,14 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
-        <About />
-        <Navbar />
-        
-
-
+      <Navbar />
+      <About />
       </div>
-      
-      
     </>
   )
 }
