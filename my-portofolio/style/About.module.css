@@ -19,4 +19,5 @@
 }
 .description p {
     font-size: 1.2rem;
+    margin-inline: 1rem;
 }

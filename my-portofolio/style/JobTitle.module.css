@@ -11,6 +11,7 @@
     background-image: linear-gradient(rgb(12, 130, 173), rgb(227, 227, 97));
     border-radius: 2rem;
     margin-inline: 0.5rem;
+    height: auto;
 }
 .name_title {
     display: flex;
