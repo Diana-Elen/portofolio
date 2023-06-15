@@ -1,0 +1,19 @@
+.skills_title {
+    font-weight: bold;
+}
+.skills_container {
+    background-color: aqua;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+}
+.skills_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.skills_list li:hover {
+    background-color: pink;
+}
