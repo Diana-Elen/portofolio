@@ -21,7 +21,3 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
-.image_dimension {
-    object-fit: contain;
-    border-radius: 300rem;
-}

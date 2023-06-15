@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
 import Experience from '@/components/Experience'
 import Skills from '@/components/Skills'
+import JobTitle from '@/components/JobTitle'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
+      <JobTitle />
       <Navbar />
       <Contact />
       <About />

@@ -1,6 +1,5 @@
 import styles from "../style/About.module.css"
-import Image from "next/image"
-import my_image from "../images/poza.jpg"
+
 
 export default function About() {
     return <>
@@ -15,7 +14,6 @@ export default function About() {
                 and develop my knowledge,while working on beautiful interactive websites.
             </p>
         </div>
-        <Image className={styles.image_dimension} src={my_image.src} width={300} height={300} alt="my image"></Image>
     </div>
     
     
