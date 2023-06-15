@@ -1,21 +1,62 @@
 .image_dimension {
     object-fit: contain;
-    border-radius: 10rem;
-    padding: 1rem;
+    margin: 0.5rem;
 }
 .job_container {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     background-image: linear-gradient(rgb(12, 130, 173), rgb(227, 227, 97));
-    border-radius: 5rem;
+    border-radius: 2rem;
+    margin-inline: 0.5rem;
+}
+.name_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
 }
 .name {
-    font-size: 4rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .job_title {
-    font-size: 3rem;
+    font-size: 0.8rem;
+}
+@media (min-width:400px) {
+    .name {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .job_title {
+        font-size: 1.2rem;
+    }
+    .image_dimension {
+        width: 12vw;
+        height: auto;
+    }
+}
+@media (min-width: 550px) {
+    .name {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    .job_title {
+        font-size: 1.6rem;
+    }
+    .job_container {
+        margin-inline: 3rem;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 800px) {
+    .name {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .job_title {
+        font-size: 3rem;
+    }
 }
