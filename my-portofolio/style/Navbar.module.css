@@ -5,4 +5,5 @@
     align-items: center;
     gap: 1rem;
     height: 20vh;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
