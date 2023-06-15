@@ -3,6 +3,7 @@ import styles from "../style/Background.module.css"
 import About from '@/components/About'
 import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
+import Experience from '@/components/Experience'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Contact />
       <About />
+      <Experience />
       </div>
     </>
   )
