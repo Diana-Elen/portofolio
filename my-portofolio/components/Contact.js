@@ -10,7 +10,7 @@ export default function Contact() {
             <p>Bucharest, Romania</p>
         </div>
         <div className={styles.contact_data}>
-            <p>https://github.com/Diana-Elen</p>
+            <a href="https://github.com/Diana-Elen" target="_blank">github profile</a>
         </div>
     </div>
     </>
