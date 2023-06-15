@@ -1,6 +1,7 @@
 .image_dimension {
     object-fit: contain;
     margin: 0.5rem;
+    border-radius: 50%;
 }
 .job_container {
     display: flex;

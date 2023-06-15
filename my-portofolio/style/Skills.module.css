@@ -1,13 +1,15 @@
 .skills_title {
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 1rem;
 }
 .skills_container {
-    background-color: aqua;
-    width: 30vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 1.5rem;
+    padding: 0.5rem 1.5rem;
 }
 .skills_list {
     display: flex;

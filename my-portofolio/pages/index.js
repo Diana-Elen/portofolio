@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import styles from "../style/Background.module.css"
 import About from '@/components/About'
 import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
 import Experience from '@/components/Experience'
 import Skills from '@/components/Skills'
 import JobTitle from '@/components/JobTitle'
+import styles from "../style/Style.module.css"
+import Technologies from '@/components/Technologies'
 
 
 export default function Home() {
@@ -20,10 +21,13 @@ export default function Home() {
       <div className={styles.background}>
       <JobTitle />
       <Navbar />
-      <Contact />
-      <About />
-      <Experience />
-      <Skills />
+      <div className={styles.content_container}>
+        <Contact />
+        <About />
+        <Experience />
+        <Skills />
+        <Technologies />
+      </div>
       </div>
     </>
   )
