@@ -3,9 +3,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-
 }
-
 .about {
     color: rgb(22, 2, 2);
     font-size: 2rem;
@@ -22,4 +20,8 @@
 .description p {
     font-size: 1.2rem;
     font-weight: bold;
+}
+.image_dimension {
+    object-fit: contain;
+    border-radius: 300rem;
 }

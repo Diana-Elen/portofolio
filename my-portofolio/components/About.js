@@ -15,7 +15,7 @@ export default function About() {
                 and develop my knowledge,while working on beautiful interactive websites.
             </p>
         </div>
-        <Image src={my_image.src} width={300} height={300} alt="my image"></Image>
+        <Image className={styles.image_dimension} src={my_image.src} width={300} height={300} alt="my image"></Image>
     </div>
     
     
