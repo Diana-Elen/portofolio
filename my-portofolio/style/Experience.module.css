@@ -4,13 +4,11 @@
     font-size: 1.6rem;
     padding: 1rem;
 }
-
 .experience_container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-
 .site_name {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

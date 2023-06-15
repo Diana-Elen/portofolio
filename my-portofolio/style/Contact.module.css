@@ -12,3 +12,6 @@
     font-weight: bold;
     padding: 0.2rem;
 }
+.linkedin {
+    object-fit: contain;
+}
