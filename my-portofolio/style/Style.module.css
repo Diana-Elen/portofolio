@@ -4,9 +4,7 @@
     object-fit: contain;
     margin-inline: auto;
     padding-block: 1rem;
-    animation-name: fundal;
-    animation-duration: 120s;
-    animation-iteration-count: infinite;
+    background-image: url("../images/abstract.png");
 }
 .content_container {
     display: flex;
@@ -14,9 +12,4 @@
     justify-content: center;
     align-items: center;
 }
-@keyframes fundal {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-  }
+
