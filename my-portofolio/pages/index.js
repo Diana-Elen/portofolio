@@ -28,6 +28,7 @@ export default function Home() {
         <Skills />
         <Technologies />
       </div>
+      
       </div>
     </>
   )

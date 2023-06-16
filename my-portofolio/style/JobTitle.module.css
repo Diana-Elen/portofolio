@@ -19,6 +19,8 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    text-shadow: -15px 5px 20px #ced0d3;
+    color: white;
 }
 .name {
     font-size: 1rem;
