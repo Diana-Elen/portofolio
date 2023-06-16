@@ -19,8 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
-      <JobTitle />
       <Navbar />
+      <JobTitle />
+      
       <div className={styles.content_container}>
         <Contact />
         <About />

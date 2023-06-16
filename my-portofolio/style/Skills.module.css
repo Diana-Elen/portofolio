@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.5rem 1.5rem;
+    background-color: rgb(100, 0, 109);
 }
 .skills_list {
     display: flex;

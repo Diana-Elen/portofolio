@@ -8,10 +8,10 @@
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    background-image: linear-gradient(rgb(12, 130, 173), rgb(227, 227, 97));
-    border-radius: 2rem;
+    background-color: whitesmoke;
     margin-inline: 0.5rem;
-    height: auto;
+    height: 80vh;
+    width: 100vw;
 }
 .name_title {
     display: flex;
@@ -20,7 +20,8 @@
     align-items: center;
     margin: 1rem;
     text-shadow: -15px 5px 20px #ced0d3;
-    color: white;
+    color: black;
+    text-transform: capitalize;
 }
 .name {
     font-size: 1rem;

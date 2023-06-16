@@ -1,5 +1,8 @@
 
 import styles from "../style/Navbar.module.css"
+import Image from "next/image"
+import github from "../images/github.svg"
+import linkedin from "../images/linkedin.png"
 
 export default function Navbar() {
     const mybuttons=["about me", "skills", "technologies", "projects", "contact"];
@@ -10,8 +13,21 @@ export default function Navbar() {
         {elem}
     </button>);
     return <>
-        <div className={styles.navbar_buttons}>
-            {Button}
+    <div className={styles.navbar_group}>
+        <div className={styles.contact_links}>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <Image src={linkedin.src} height={50} width={50} className={styles.linkedin}>
+            </Image>
+            </a>          
+            <a href="https://github.com/Diana-Elen" target="_blank">
+            <Image src={github.src} height={50} width={50} className={styles.github}>
+            </Image>
+            </a>
         </div>
+        <div className={styles.navbar_buttons}>
+                {Button}
+        </div>
+    </div>
+        
    </>
 }
