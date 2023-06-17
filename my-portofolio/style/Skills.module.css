@@ -3,19 +3,21 @@
     text-transform: uppercase;
     font-size: 1.6rem;
     padding: 1rem;
+    text-align: center;
 }
 .skills_container {
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 0.5rem 1.5rem;
-    background-color: rgb(100, 0, 109);
+    margin-block-end: 2rem;
 }
 .skills_list {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 0.2rem;
+    margin-inline-start: 2rem;
 }
 .skills_list li:hover {
     background-color: pink;
