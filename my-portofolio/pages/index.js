@@ -20,16 +20,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
-      <Navbar />
-      <JobTitle />
-      <About />
-      <div className={styles.content_container}>     
+        <Navbar />
+        <JobTitle />
+        <About />
         <Experience />
         <Skills />
-        <Technologies />
+        <Technologies />   
         <Footer />
-      </div>
-      
       </div>
     </>
   )

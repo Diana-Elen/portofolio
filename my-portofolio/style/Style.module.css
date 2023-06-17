@@ -5,12 +5,6 @@
     margin-inline: auto;
     padding-block: 1rem;
     background-image: url("../images/abstract.png");
-}
-.content_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+    background-repeat: repeat-x;
 }
 
