@@ -7,6 +7,7 @@ import Skills from '@/components/Skills'
 import JobTitle from '@/components/JobTitle'
 import styles from "../style/Style.module.css"
 import Technologies from '@/components/Technologies'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -21,13 +22,12 @@ export default function Home() {
       <div className={styles.background}>
       <Navbar />
       <JobTitle />
-      
-      <div className={styles.content_container}>
-        <Contact />
-        <About />
+      <About />
+      <div className={styles.content_container}>     
         <Experience />
         <Skills />
         <Technologies />
+        <Footer />
       </div>
       
       </div>
