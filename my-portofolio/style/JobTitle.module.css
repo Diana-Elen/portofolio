@@ -7,10 +7,20 @@
 }
 .hello {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1rem;
+    text-transform: uppercase;
+    text-shadow: -15px 5px 20px #64cc2c;
+    color: white;
+    letter-spacing: -0.05em;
+    font-family: 'Anton', Arial, sans-serif;
+    user-select: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease-out;
+}
+.hello:hover {
+    text-shadow: -15px 5px 20px black;
 }
 .job_container {
     display: flex;
@@ -21,6 +31,7 @@
     width: 100vw;
     gap: 2rem;
     margin-block-start: 1rem;
+    background-color: white;
 }
 .name_title {
     display: flex;
