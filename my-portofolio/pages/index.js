@@ -24,8 +24,11 @@ export default function Home() {
         <Navbar />
         <JobTitle />
         <About />
-        <Skills />
-        <Education />
+        <div className={styles.skills_education}>
+          <Skills />
+          <Education />
+        </div>
+        
         <Experience />
         <Technologies />   
         <Footer />
