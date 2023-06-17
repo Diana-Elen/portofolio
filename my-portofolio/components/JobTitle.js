@@ -1,5 +1,5 @@
 import Image from "next/image"
-import my_image from "../images/poza.jpg"
+import my_image from "../images/poza.png"
 import styles from "../style/JobTitle.module.css"
 
 export default function JobTitle() {
@@ -9,7 +9,7 @@ export default function JobTitle() {
             <p className={styles.name}>Diana-Elena Dinu</p>
             <p className={styles.job_title}>Front-end web developer</p>
         </div>
-        <Image className={styles.image_dimension} src={my_image.src} width={100} height={100} alt="my image"></Image>
+        <Image className={styles.image_dimension} src={my_image.src} width={200} height={200} alt="my image"></Image>
     </div>
     </>
 }
