@@ -22,3 +22,8 @@
     font-size: 1.2rem;
     margin-inline: 1rem;
 }
+@media (min-width: 700px) {
+    .description {
+        width: 70vw;
+    }
+}

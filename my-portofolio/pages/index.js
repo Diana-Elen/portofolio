@@ -8,6 +8,7 @@ import JobTitle from '@/components/JobTitle'
 import styles from "../style/Style.module.css"
 import Technologies from '@/components/Technologies'
 import Footer from '@/components/Footer'
+import Education from '@/components/Education'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <JobTitle />
         <About />
         <Skills />
+        <Education />
         <Experience />
         <Technologies />   
         <Footer />

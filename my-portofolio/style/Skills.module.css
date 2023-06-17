@@ -27,3 +27,8 @@
 .skills_list li:hover {
     background-color: pink;
 }
+@media (min-width: 550px) {
+    .skills_container {
+        width: 40vw;
+    }
+}
