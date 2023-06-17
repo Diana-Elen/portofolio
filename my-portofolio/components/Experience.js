@@ -11,12 +11,13 @@ export default function Experience() {
         <div className={styles.experience_container}>
             <article className={styles.project}>
                 <div>
-                    <p className={styles.site_name}>flower-shop website</p>
+                    <a href="https://diana-flower-shop.netlify.app/" target="_blank" className={styles.site_name}>
+                        Diana's Flower shop
+                    </a>
                     <p className={styles.site_description}>Final project at IT School, May 2023</p>
                     <ul>
                         <li>Responsive website</li>
                         <li>Technologies used: HTML, CSS, JavaScript, React, Next, Bootstrap</li>
-                        <li><a href="https://diana-flower-shop.netlify.app/" target="_blank" >Diana's Flower shop</a></li>
                     </ul>
                 </div>
                     <a href="https://diana-flower-shop.netlify.app/" target="_blank">
@@ -26,12 +27,13 @@ export default function Experience() {
             </article>
             <article className={styles.project}>
                 <div>
-                <p className={styles.site_name}>handmade candles website</p>
+                <a href="https://handmade-candles-ignys.netlify.app/" target="_blank" className={styles.site_name}>
+                    Handmade candles presentation website
+                </a>
                 <p className={styles.site_description}>Intermediary project at IT school, March 2023</p>
                 <ul>
                     <li>Responsive website</li>
                     <li>Technologies used: HTML, CSS (flex, grid), JavaScript</li>
-                    <li><a href="https://handmade-candles-ignys.netlify.app/" target="_blank">Handmade candles presentation website</a></li>
                 </ul>
                 </div>
                 <a href="https://handmade-candles-ignys.netlify.app/" target="_blank">
@@ -41,12 +43,13 @@ export default function Experience() {
             </article>
             <article className={styles.project}>
                 <div>
-                    <p className={styles.site_name}>iceland website</p>
+                    <a href="https://iceland-presentation-site.netlify.app/" target="_blank" className={styles.site_name}>
+                        Iceland presentation website
+                    </a>
                     <p className={styles.site_description}>Intermediate project at IT School, January 2023</p>
                     <ul>
                         <li>Responsive website</li>
                         <li>Techologies used: HTML, CSS (flex, grid)</li>
-                        <li><a href="https://iceland-presentation-site.netlify.app/" target="_blank">Iceland presentation website</a></li>
                     </ul>
                 </div>
                 <a href="https://iceland-presentation-site.netlify.app/" target="_blank">
