@@ -20,6 +20,9 @@
     align-items: flex-start;
     gap: 0.2rem;
     margin-inline-start: 2rem;
+    font-weight: bold;
+    margin-inline-start: 25%;
+    width: 60vw;
 }
 .skills_list li:hover {
     background-color: pink;

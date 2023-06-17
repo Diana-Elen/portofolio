@@ -23,8 +23,8 @@ export default function Home() {
         <Navbar />
         <JobTitle />
         <About />
-        <Experience />
         <Skills />
+        <Experience />
         <Technologies />   
         <Footer />
       </div>
