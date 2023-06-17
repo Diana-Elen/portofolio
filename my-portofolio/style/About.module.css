@@ -4,19 +4,15 @@
     justify-content: center;
     gap: 2rem;
 }
-.hello {
-    text-align: center;
-    font-size: 6rem;
-    font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1rem;
-}
+
 .description {
     display: flex;
     flex-direction: column;
     width: 100vw;
     padding: 1rem;
     font-weight: bold;
+    color: #aaa;
+    font-size: 1.3rem;
 }
 .description p {
     font-size: 1.2rem;

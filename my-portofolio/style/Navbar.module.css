@@ -16,9 +16,9 @@
     font-size: 1.1rem;
 }
 .button_design:hover {
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-color: #66cf2d;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .contact_links {
     width: 30vw;
@@ -39,7 +39,7 @@
     background-color: black;
     color: white;
     padding: 0.3rem 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     border-radius: 0.7rem;
   }
   
@@ -74,7 +74,7 @@
   .dropdown:hover .dropdown_content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: grey;}
+  .dropdown:hover .dropbtn {background-color: #66cf2d;}
 
   @media (min-width: 950px) {
     .dropdown {

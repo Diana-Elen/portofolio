@@ -3,6 +3,14 @@
     object-fit: contain;
     border-radius: 50%;
     height: auto;
+    border: 1px solid rgb(43, 224, 76);
+}
+.hello {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
 }
 .job_container {
     display: flex;

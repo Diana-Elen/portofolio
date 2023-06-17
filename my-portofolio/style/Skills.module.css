@@ -11,8 +11,6 @@
     flex-direction: column;
     gap: 0.5rem;
     margin-block-end: 2rem;
-    background-image: url("../images/abstract.png");
-    background-repeat: repeat-x;
 }
 .skills_list {
     display: flex;

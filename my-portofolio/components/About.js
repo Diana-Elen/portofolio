@@ -5,8 +5,7 @@ export default function About() {
     return <>
     <div className={styles.full_description}>
         <div className={styles.description}>
-            <p className={styles.hello}>Hello, I'm Diana Dinu
-            </p>
+            
             <p>I’m passionate about front-end web development and I've graduated from the IT School course, 
                 a 5 months of intense training, where I studied: HTML, CSS, JavaScript, React, Bootstrap.
             </p>
