@@ -1,6 +1,7 @@
 .footer_container {
-    height: 5vh;
+    height: 12vh;
     width: 100vw;
-    background-color: antiquewhite;
-    margin-block-start: 1rem;
+    background-color: rgb(37, 168, 198);
+    margin-block: 1rem 0rem;
+    padding: 1rem;
 }
