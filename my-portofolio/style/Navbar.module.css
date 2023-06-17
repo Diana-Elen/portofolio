@@ -12,7 +12,8 @@
     color: white;
     padding: 0.2rem 0.8rem;
     border-radius: 0.5rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    font-size: 1.1rem;
 }
 .button_design:hover {
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
@@ -21,14 +22,13 @@
 }
 .contact_links {
     width: 30vw;
-    padding-inline: 1rem;
     font-weight: bold;
-    padding: 0.2rem;
+    padding: 0.2rem 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
-    border-inline: 1rem;
+    margin-left: 1rem;
 }
 .linkedin, .github {
     display: none;
@@ -101,5 +101,6 @@
     .linkedin, .github {
         display: flex;
         object-fit: contain;
+        width: 6rem;
     }
  }

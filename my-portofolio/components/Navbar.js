@@ -17,17 +17,17 @@ export default function Navbar() {
     <div className={styles.navbar_group}>
         <div className={styles.contact_links}>
             <a href="https://www.linkedin.com/feed/" target="_blank">
-            <Image src={linkedin.src} height={50} width={50} className={styles.linkedin} alt="linkedin image">
-            </Image>
+                <Image src={linkedin.src} height={50} width={50} className={styles.linkedin} alt="linkedin image">
+                </Image>
             </a>          
             <a href="https://github.com/Diana-Elen" target="_blank">
-            <Image src={github.src} height={50} width={50} className={styles.github} alt="linkedin image">
-            </Image>
+                <Image src={github.src} height={50} width={50} className={styles.github} alt="github image">
+                </Image>
             </a>
             <div className={styles.dropdown}>
             <button className={styles.dropbtn}>Menu</button>
             <div class={styles.dropdown_content}>
-                <a href="#">About me</a>
+                <a href="About.js">About me</a>
                 <a href="#">Skills</a>
                 <a href="#">Technologies</a>
                 <a href="#">Experience</a>
