@@ -29,8 +29,10 @@
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    padding: 1.5rem 1.5rem;
-    background-color: rgb(196, 196, 195);
+    padding: 1rem;
+}
+.project:hover {
+    border: 1px solid #66cf2d;
 }
 .website_image {
     height: 40vh;
