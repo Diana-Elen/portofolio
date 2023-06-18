@@ -1,8 +1,10 @@
 .navbar_group {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    width: 100vw;
+    margin-block-start: 1rem;
 }
 .navbar_buttons {
     display: none;
