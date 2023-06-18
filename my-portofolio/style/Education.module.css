@@ -10,7 +10,10 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-    background-color: antiquewhite;
+    padding: 1rem;
+}
+.education_container:hover {
+    border: 1px solid #66cf2d;
 }
 .education_title {
     font-size: 1.6rem;

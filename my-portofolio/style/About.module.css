@@ -8,6 +8,9 @@
     font-size: 1.3rem;
     margin-block: 1rem;
 }
+.description:hover {
+    border: 1px solid #66cf2d;
+}
 .description p {
     font-size: 1.2rem;
     margin-inline: 1rem;

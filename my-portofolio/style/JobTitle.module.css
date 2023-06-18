@@ -14,7 +14,7 @@
     object-fit: contain;
     border-radius: 50%;
     height: auto;
-    border: 1px solid rgb(43, 224, 76);
+    border: 1px solid #66cf2d;
 }
 .hello {
     text-align: center;
@@ -23,7 +23,7 @@
     padding: 1rem;
     text-transform: uppercase;
     text-shadow: -15px 5px 20px #ced0d3;
-    color: white;
+    color: black;
     letter-spacing: -0.05rem;
     font-family: 'Anton', Arial, sans-serif;
     user-select: none;
