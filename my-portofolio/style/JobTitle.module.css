@@ -1,3 +1,14 @@
+.job_container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    gap: 2rem;
+    margin-block: 1rem;
+    background-color: white;
+}
 .image_dimension {
     display: block;
     object-fit: contain;
@@ -7,7 +18,7 @@
 }
 .hello {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
     text-transform: uppercase;
@@ -21,17 +32,6 @@
 }
 .hello:hover {
     text-shadow: -15px 5px 20px black;
-}
-.job_container {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    height: 50vh;
-    width: 100vw;
-    gap: 2rem;
-    margin-block: 1rem;
-    background-color: white;
 }
 .name_title {
     display: flex;
@@ -68,9 +68,13 @@
     .job_container {
         display: flex;
         flex-direction: row;
+        height: 100vh;
     }
     .image_dimension {
         height: 300px;
         width: 300px;
+    }
+    .hello {
+        font-size: 4rem;
     }
 }
