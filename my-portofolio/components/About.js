@@ -3,7 +3,7 @@ import styles from "../style/About.module.css"
 
 export default function About() {
     return <>
-    <div className={styles.full_description}>
+    
         <div className={styles.description}>
             
             <p>I’m passionate about front-end web development and I've graduated from the IT School course, 
@@ -17,6 +17,6 @@ export default function About() {
                 and develop my knowledge, while working on beautiful interactive websites.
             </p>
         </div>
-    </div>
+    
     </>
 }

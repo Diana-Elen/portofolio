@@ -1,6 +1,13 @@
 .background {
     background-color: white;
 }
+.page_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 .skills_education {
     display: flex;
     flex-direction: row;

@@ -21,9 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
-        <Navbar />
-        <JobTitle />
-        <About />
+        <div className={styles.page_header}>
+          <Navbar />
+          <JobTitle />
+          <About />
+        </div>
         <div className={styles.skills_education}>
           <Skills />
           <Education />
