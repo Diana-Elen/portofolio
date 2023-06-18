@@ -10,8 +10,9 @@
 }
 .skills_education {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #c8cccb;
+    padding: 2rem;
+    gap: 2rem;
 }

@@ -2,15 +2,13 @@
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.6rem;
-    padding: 1rem;
     text-align: center;
 }
 .skills_container {
-    width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 0.5rem;
-    margin-block-end: 2rem;
 }
 .skills_list {
     display: flex;
@@ -19,8 +17,6 @@
     gap: 0.2rem;
     margin-inline-start: 2rem;
     font-weight: bold;
-    margin-inline-start: 25%;
-    width: 60vw;
 }
 .skills_list li:hover {
     background-color: pink;

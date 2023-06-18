@@ -22,16 +22,16 @@
     font-weight: bold;
     padding: 1rem;
     text-transform: uppercase;
-    text-shadow: -15px 5px 20px #64cc2c;
+    text-shadow: -15px 5px 20px #ced0d3;
     color: white;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.05rem;
     font-family: 'Anton', Arial, sans-serif;
     user-select: none;
     text-transform: uppercase;
     transition: all 0.25s ease-out;
 }
 .hello:hover {
-    text-shadow: -15px 5px 20px black;
+    text-shadow: -16px 6px 15px #5a5a5b;
 }
 .name_title {
     display: flex;
