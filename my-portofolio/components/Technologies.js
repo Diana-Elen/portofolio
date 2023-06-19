@@ -6,6 +6,7 @@ import javascript from "../images/javascript-1.svg"
 import bootstrap from "../images/bootstrap-5-1.svg"
 import styles from "../style/Technologies.module.css"
 
+
 export default function Technologies() {
     return <>
     <div className={styles.technologies_title}>

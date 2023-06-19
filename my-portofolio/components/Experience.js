@@ -68,7 +68,7 @@ export default function Experience() {
                             package automotive engineer, manufacturing team project manager
                         </li>
                         <li>Worked on Agile projects, where I also had the additional roles of 
-                            ProductOwner / Scrum Master / Workpackage team leader, where I had to 
+                            Product Owner / Scrum Master / Workpackage team leader, where I had to 
                             lead teams with mixed competencies (teams of 10-17 persons)
                         </li>
                     </ul>
