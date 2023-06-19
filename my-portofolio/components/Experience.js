@@ -56,7 +56,52 @@ export default function Experience() {
                     <Image height={300} width={300} src={iceland.src} className={styles.website_image} alt="flowershop">
                     </Image>
                 </a>
-                
+            </article>
+            <article className={styles.workplace}>
+                <div>
+                    <p className={styles.site_name}>
+                        AKKA TECHNOLOGIES SRL - BUCHAREST, ROMANIA
+                    </p>
+                    <p className={styles.site_description}>Sept 2018 - present</p>
+                    <ul>
+                        <li>Work in the automotive field, in the development of new vehicles, on keyroles: 
+                            package automotive engineer, manufacturing team project manager
+                        </li>
+                        <li>Worked on Agile projects, where I also had the additional roles of 
+                            ProductOwner / Scrum Master / Workpackage team leader, where I had to 
+                            lead teams with mixed competencies (teams of 10-17 persons)
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article className={styles.workplace}>
+                <div>
+                    <p className={styles.site_name}>
+                        ENVISAGE GROUP LTD COMPANY - COVENTRY, UK
+                    </p>
+                    <p className={styles.site_description}>Sept 2016 - Sept 2018</p>
+                    <ul>
+                        <li>Worked for Jaguar and London Taxi Vehicle, as package vehicle engineer
+                        </li>
+                        <li>I was based in UK and had to manage a team of 4-5 persons from India 
+                            and present the work results on a weekly basis to the client from UK
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article className={styles.workplace}>
+                <div>
+                    <p className={styles.site_name}>
+                        RENAULT SRL - ROMANIA, FRANCE, MAROCCO
+                    </p>
+                    <p className={styles.site_description}>Sept 2008 - Sept 2016</p>
+                    <ul>
+                        <li>worked on several roles, on multiple automotive projects, in an international team 
+                        </li>
+                        <li>I spent 6 months in France and 1 year in Marocco, at the Renault Tangier plant
+                        </li>
+                    </ul>
+                </div>
             </article>
         </div>
     </div>
