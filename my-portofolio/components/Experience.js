@@ -64,7 +64,7 @@ export default function Experience() {
                     </p>
                     <p className={styles.site_description}>Sept 2018 - present</p>
                     <ul>
-                        <li>Work in the automotive field, in the development of new vehicles, on keyroles: 
+                        <li>Work in the automotive vehicle engineering field, in the development of new vehicles, on keyroles: 
                             package automotive engineer, manufacturing team project manager
                         </li>
                         <li>Worked on Agile projects, where I also had the additional roles of 

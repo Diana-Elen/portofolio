@@ -52,7 +52,7 @@
     border: 1px solid #66cf2d;
 }
 .website_image {
-    height: 40vh;
+    height: 20vh;
     width: 60vw;
     object-fit: contain;
 }
@@ -61,7 +61,7 @@
         flex-direction: row;
     }
     .website_image {
-        height: 40vh;
+        height: 13vh;
         width: 30vw;
     }
 }
