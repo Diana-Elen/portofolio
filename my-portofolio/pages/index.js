@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import About from '@/components/About'
 import Navbar from '@/components/Navbar'
-import Contact from '@/components/Contact'
+import Contact, { Button } from '@/components/Contact'
 import Experience from '@/components/Experience'
 import Skills from '@/components/Skills'
 import JobTitle from '@/components/JobTitle'
@@ -35,6 +35,7 @@ export default function Home() {
         <Experience />
         <Technologies />   
         <Certificates />
+        <Button />
         <Footer />
       </div>
     </>

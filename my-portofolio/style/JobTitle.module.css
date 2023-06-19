@@ -49,6 +49,7 @@
 }
 .job_title {
     font-size: 1.6rem;
+    color: black;
 }
 @media (min-width: 550px) {
     .name {
