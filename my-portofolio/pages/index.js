@@ -9,6 +9,7 @@ import styles from "../style/Style.module.css"
 import Technologies from '@/components/Technologies'
 import Footer from '@/components/Footer'
 import Education from '@/components/Education'
+import Certificates from '@/components/Certificates'
 
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
         
         <Experience />
         <Technologies />   
+        <Certificates />
         <Footer />
       </div>
     </>
