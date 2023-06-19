@@ -69,10 +69,6 @@
         display: flex;
         flex-direction: row;
     }
-    .image_dimension {
-        height: 30vh;
-        margin: 2rem;
-    }
     .hello {
         font-size: 3rem;
     }

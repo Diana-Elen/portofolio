@@ -18,7 +18,7 @@ export default function Education() {
         </div>
         <div className={styles.education_item}>
             <p className={styles.education_unit}>POLITEHNICA UNIVERSITY OF BUCHAREST</p>
-            <p className={styles.study}>Licence degree - Faculty of PowerEngineering</p>
+            <p className={styles.study}>Licence degree - Faculty of Power Engineering</p>
             <p className={styles.study}>2003 - 2008</p>
         </div>
     </div>

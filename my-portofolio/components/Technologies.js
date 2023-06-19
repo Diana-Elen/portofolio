@@ -13,11 +13,11 @@ export default function Technologies() {
         Technologies
     </div>
     <div className={styles.technologies_container}>
-        <Image src={html.src} height={60} width={60} alt="linkedin image"></Image>
-        <Image src={css.src} height={60} width={60} alt="linkedin image"></Image>
-        <Image src={javascript.src} height={60} width={60} alt="linkedin image"></Image>
-        <Image src={bootstrap.src} height={60} width={60} alt="linkedin image"></Image>
-        <Image src={react.src} height={60} width={60} alt="linkedin image"></Image>
+        <Image src={html.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+        <Image src={css.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+        <Image src={javascript.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+        <Image src={bootstrap.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+        <Image src={react.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
     </div>
     
     </>

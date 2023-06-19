@@ -14,6 +14,19 @@
     padding: 1rem;
     font-family: "Nanum_Pen_Script";
 }
+@media (min-width:500px) {
+    .technology_image {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+@media (min-width:1000px) {
+    .technology_image {
+        height: 7rem;
+        width: 7rem;
+    }
+}
+
 @font-face {
     font-family: 'Nanum_Pen_Script';
     src: local('Nanum_Pen_script'), url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf) format('truetype');
