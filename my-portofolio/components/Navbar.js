@@ -26,7 +26,7 @@ export default function Navbar() {
             </a>
             <div className={styles.dropdown}>
             <button className={styles.dropbtn}>Menu</button>
-            <div class={styles.dropdown_content}>
+            <div className={styles.dropdown_content}>
                 <a href="About.js">About me</a>
                 <a href="#">Skills</a>
                 <a href="#">Technologies</a>
