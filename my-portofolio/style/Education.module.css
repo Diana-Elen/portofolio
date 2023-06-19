@@ -19,4 +19,14 @@
     font-size: 1.6rem;
     font-weight: bold;
     text-transform: uppercase;
+    width: 100%;
+}
+.education_title:hover {
+    background-color: gainsboro;
+}
+.education_item {
+    width: 100%;
+}
+.education_item:hover {
+    background-color: gainsboro;
 }
