@@ -1,8 +1,8 @@
 .skills_title {
     font-weight: bold;
-    text-transform: uppercase;
     font-size: 1.6rem;
     text-align: center;
+    font-family: "Modesty";
 }
 .skills_container {
     display: flex;
@@ -26,3 +26,7 @@
         width: 40vw;
     }
 }
+@font-face {
+    font-family: 'modesty';
+    src: local('ModestyFreshStyle'), url(../fonts/modesty/ModestyFreshStyle.ttf) format('truetype');
+  }
