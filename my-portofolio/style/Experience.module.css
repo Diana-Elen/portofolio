@@ -16,6 +16,10 @@
     width: 80vw;
     margin-inline: auto;
 }
+.experience_container:hover {
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
+    border-radius: 3rem;
+}
 .site_name {
     font-size: 1rem;
     text-transform: capitalize;
@@ -35,7 +39,8 @@
 }
 .project:hover {
     background-color: gainsboro;
-    border: 1px solid #66cf2d;
+    border-radius: 3rem;
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
 }
 .workplace {
     display: flex;
@@ -44,12 +49,13 @@
     align-items: flex-start;
     gap: 2rem;
     padding: 1rem;
-    background-color: aqua;
     padding-inline: 2rem;
+    padding: 1.5rem;
 }
 .workplace:hover {
     background-color: gainsboro;
-    border: 1px solid #66cf2d;
+    border-radius: 3rem;
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
 }
 .website_image {
     height: 20vh;
