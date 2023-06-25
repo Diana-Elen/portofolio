@@ -37,7 +37,6 @@ export default function Home() {
         <Experience />
         <Technologies />   
         <Certificates />
-        <Button />
         <Footer />
       </div>
     </>
