@@ -6,11 +6,13 @@ import { useState } from "react"
 
 export default function JobTitle() {
     const [imageSrc, setImageSrc] = useState(my_image);
-
-    // Function to change the image source
     const changeImageSrc = () => {
       setImageSrc(abstract);
     }
+    const returnImageSrc = () => {
+        setImageSrc(my_image);
+      }
+      
     return <>
     <div className={styles.job_container}>
         <div className={styles.name_title}>
@@ -24,7 +26,8 @@ export default function JobTitle() {
         alt="my img" 
         height={200} 
         width={200} 
-        onMouseOver = {changeImageSrc} />
+        onMouseOver = {changeImageSrc}
+        onMouseOut={returnImageSrc} />
     </div>
     </>
 }
