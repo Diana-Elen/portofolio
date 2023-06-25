@@ -1,14 +1,13 @@
 import styles from "../style/Experience.module.css"
 import Image from "next/image"
-import flowershop from "../images/flowershop.jpg"
-import candles_image from "../images/candles_website.jpg"
-import iceland from "../images/iceland.jpg"
+import flowershop from "../images/flowershop.png"
+import candles_image from "../images/candles_website.png"
+import iceland from "../images/iceland.png"
 
 export default function Experience() {
     return <>
-    <div>
+    <div className={styles.experience_container}>
         <p className={styles.experience_title}>experience</p>
-        <div className={styles.experience_container}>
             <article className={styles.project}>
                 <div>
                     <a href="https://diana-flower-shop.netlify.app/" target="_blank" className={styles.site_name}>
@@ -103,8 +102,6 @@ export default function Experience() {
                     </ul>
                 </div>
             </article>
-        </div>
     </div>
-    
     </>
 }

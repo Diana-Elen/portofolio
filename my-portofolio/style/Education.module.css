@@ -22,10 +22,13 @@
     font-size: 1.6rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
     width: 100%;
 }
 .education_title:hover {
+    padding: 1rem;
     background-color: gainsboro;
+    border-radius: 3rem;
 }
 .education_item {
     width: 100%;
