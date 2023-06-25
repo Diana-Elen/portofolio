@@ -32,11 +32,10 @@ export default function Home() {
         <div className={styles.skills_education}>
           <Skills />
           <Education />
+          <Experience />
+          <Technologies />   
+          <Certificates />
         </div>
-        
-        <Experience />
-        <Technologies />   
-        <Certificates />
         <Footer />
       </div>
     </>

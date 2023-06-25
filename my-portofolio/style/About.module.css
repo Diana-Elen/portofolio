@@ -5,8 +5,8 @@
     padding: 1.5rem;
     font-weight: bold;
     color: #313030;
-    font-size: 1.3rem;
     margin-block: 0.5rem;
+    font-family: 'Nanum_Pen_Script';
 }
 .description:hover {
     border: 1px solid #66cf2d;
@@ -14,11 +14,20 @@
     border-radius: 3rem;
 }
 .description p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-inline: 1rem;
 }
 @media (min-width: 700px) {
     .description {
-        width: 70vw;
+        width: 90vw;
     }
 }
+@media (min-width: 900px) {
+    .description {
+        width: 60vw;
+    }
+}
+@font-face {
+    font-family: 'Nanum_Pen_Script';
+    src: local('Nanum_Pen_script'), url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf) format('truetype');
+  }

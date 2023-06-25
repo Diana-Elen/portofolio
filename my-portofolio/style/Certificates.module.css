@@ -13,3 +13,7 @@
     color: green;
     background-color: cadetblue;
 }
+@font-face {
+    font-family: 'Nanum_Pen_Script';
+    src: local('Nanum_Pen_script'), url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf) format('truetype');
+  }

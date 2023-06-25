@@ -9,16 +9,17 @@ import styles from "../style/Technologies.module.css"
 
 export default function Technologies() {
     return <>
-    <div className={styles.technologies_title}>
-        Technologies
-    </div>
     <div className={styles.technologies_container}>
-        <Image src={html.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
-        <Image src={css.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
-        <Image src={javascript.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
-        <Image src={bootstrap.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
-        <Image src={react.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+        <div className={styles.technologies_title}>
+            Technologies
+        </div>
+        <div className={styles.technologies_group}>
+            <Image src={html.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+            <Image src={css.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+            <Image src={javascript.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+            <Image src={bootstrap.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+            <Image src={react.src} height={40} width={40} alt="linkedin image" className={styles.technology_image}></Image>
+        </div>
     </div>
-    
     </>
 }

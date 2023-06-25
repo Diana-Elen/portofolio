@@ -2,6 +2,7 @@
     font-weight: bold;
     font-size: 1.6rem;
     text-align: center;
+    font-family: 'Nanum_Pen_Script';
 }
 .skills_container {
     display: flex;
@@ -11,6 +12,7 @@
     padding: 1.5rem;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
     border-radius: 3rem;
+    
 }
 .skills_container:hover {
     border: 1px solid #66cf2d;
@@ -33,3 +35,7 @@
         width: 40vw;
     }
 }
+@font-face {
+    font-family: 'Nanum_Pen_Script';
+    src: local('Nanum_Pen_script'), url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf) format('truetype');
+  }

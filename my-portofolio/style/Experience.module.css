@@ -5,6 +5,7 @@
     font-size: 1.6rem;
     padding: 1rem;
     display: block;
+    font-family: 'Nanum_Pen_Script';
 }
 .experience_title:hover {
     width: 90%;
@@ -94,3 +95,7 @@
         width: auto;
     }
 }
+@font-face {
+    font-family: 'Nanum_Pen_Script';
+    src: local('Nanum_Pen_script'), url(../fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf) format('truetype');
+  }
