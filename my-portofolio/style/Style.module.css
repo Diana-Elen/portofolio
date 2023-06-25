@@ -1,5 +1,7 @@
 .background {
-    background-color: white;
+    background-image: url("../images/colored_background2.png");
+    min-height: 100%;
+    min-width: 100%;
 }
 .page_header {
     display: flex;
