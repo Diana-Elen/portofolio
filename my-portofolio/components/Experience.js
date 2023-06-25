@@ -141,11 +141,11 @@ export default function Experience() {
                 <article className={styles.workplace}>
                     <div>
                         <p className={styles.site_name}>
-                            RENAULT SRL - ROMANIA, FRANCE, MAROCCO
+                            RENAULT GROUP - ROMANIA, FRANCE, MAROCCO
                         </p>
                         <p className={styles.site_description}>Sept 2008 - Sept 2016</p>
                         <ul>
-                            <li>worked on several roles, on multiple automotive projects, in an international team 
+                            <li>I worked on several roles, on multiple automotive projects, in an international team 
                             </li>
                             <li>I spent 6 months in France and 1 year in Marocco, at the Renault Tangier plant
                             </li>

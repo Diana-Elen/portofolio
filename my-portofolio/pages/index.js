@@ -11,6 +11,7 @@ import Footer from '@/components/Footer'
 import Education from '@/components/Education'
 import Certificates from '@/components/Certificates'
 import EventBind from '@/components/EventBind'
+import Form from '@/components/Form'
 
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
           <Experience />
           <Technologies />   
           <Certificates />
+          <Form />
         </div>
         <Footer />
       </div>
