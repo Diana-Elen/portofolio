@@ -1,10 +1,38 @@
 import styles from "../style/Experience.module.css"
 import Image from "next/image"
-import flowershop from "../images/flowershop.png"
-import candles_image from "../images/candles_website.png"
-import iceland from "../images/iceland.png"
+import flowershop from "../images/flowershop.webp"
+import flowershop2 from "../images/flowershop2.webp"
+import candles_image from "../images/candles_website.webp"
+import candles_website2 from "../images/candles_website2.webp"
+import iceland from "../images/iceland.webp"
+import iceland2 from "../images/iceland2.webp"
+import { useState } from "react"
 
 export default function Experience() {
+    const [imageSrc, setImageSrc] = useState(flowershop);
+    const changeImageSrc = () => {
+      setImageSrc(flowershop2);
+    }
+    const returnImageSrc = () => {
+        setImageSrc(flowershop);
+      }
+
+    const [imageSrc2, setImageSrc2] = useState(candles_image);
+    const changeImageSrc2 = () => {
+    setImageSrc2(candles_website2);
+    }
+    const returnImageSrc2 = () => {
+        setImageSrc2(candles_image);
+    }
+
+    const [imageSrc3, setImageSrc3] = useState(iceland);
+    const changeImageSrc3 = () => {
+    setImageSrc3(iceland2);
+    }
+    const returnImageSrc3 = () => {
+        setImageSrc3(iceland);
+    }
+      
     return <>
     <div className={styles.experience_container}>
         <p className={styles.experience_title}>experience</p>
@@ -20,7 +48,14 @@ export default function Experience() {
                     </ul>
                 </div>
                     <a href="https://diana-flower-shop.netlify.app/" target="_blank">
-                    <Image height={300} width={300} src={flowershop.src} className={styles.website_image} alt="flowershop">
+                    <Image 
+                    height={300} 
+                    width={300} 
+                    src={imageSrc} 
+                    onMouseOver={changeImageSrc}
+                    onMouseLeave={returnImageSrc}
+                    className={styles.website_image} 
+                    alt="flowershop">
                     </Image>
                     </a>
             </article>
@@ -36,7 +71,14 @@ export default function Experience() {
                 </ul>
                 </div>
                 <a href="https://handmade-candles-ignys.netlify.app/" target="_blank">
-                    <Image height={300} width={300} src={candles_image.src} className={styles.website_image} alt="flowershop">
+                    <Image 
+                    height={300} 
+                    width={300} 
+                    src={imageSrc2} 
+                    onMouseOver={changeImageSrc2}
+                    onMouseLeave={returnImageSrc2}
+                    className={styles.website_image} 
+                    alt="flowershop">
                     </Image>
                 </a>
             </article>
@@ -52,7 +94,14 @@ export default function Experience() {
                     </ul>
                 </div>
                 <a href="https://iceland-presentation-site.netlify.app/" target="_blank">
-                    <Image height={300} width={300} src={iceland.src} className={styles.website_image} alt="flowershop">
+                    <Image 
+                    height={300} 
+                    width={300} 
+                    src={imageSrc3} 
+                    onMouseOver={changeImageSrc3}
+                    onMouseLeave={returnImageSrc3}
+                    className={styles.website_image} 
+                    alt="flowershop">
                     </Image>
                 </a>
             </article>

@@ -2,7 +2,7 @@ import styles from "../style/Skills.module.css"
 
 export default function Skills() {
     return <>
-    <div className={styles.skills_container}>
+    <div className={styles.skills_container} id="skills">
         <p className={styles.skills_title}>Skills</p>
         <ul className={styles.skills_list}>
             <li>Responsive web design</li>

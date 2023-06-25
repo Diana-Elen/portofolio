@@ -3,7 +3,7 @@ import styles from "../style/About.module.css"
 
 export default function About() {
     return <>
-        <div className={styles.description}> 
+        <div className={styles.description} id="about"> 
             <p>I’m passionate about front-end web development and I've graduated from the IT School course, 
                 a 5 months of intense training, where I studied: HTML, CSS, JavaScript, React, Bootstrap.
             </p>
