@@ -27,8 +27,8 @@ export default function Navbar() {
             <div className={styles.dropdown}>
             <button className={styles.dropbtn}>Menu</button>
             <div className={styles.dropdown_content}>
-                <a href="#about">About me</a>
-                <a href="Skills">Skills</a>
+                <a href="/About">About me</a>
+                <a href="./#Skills">Skills</a>
                 <a href="#">Technologies</a>
                 <a href="#">Experience</a>
                 <a href="#">Technologies</a>
