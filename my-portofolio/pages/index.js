@@ -10,7 +10,6 @@ import Technologies from '@/components/Technologies'
 import Footer from '@/components/Footer'
 import Education from '@/components/Education'
 import Certificates from '@/components/Certificates'
-import EventBind from '@/components/EventBind'
 import Form from '@/components/Form'
 
 
@@ -28,7 +27,6 @@ export default function Home() {
           <Navbar />
           <JobTitle />
           <About />
-          <EventBind />
         </div>
         <div className={styles.skills_education}>
           <Skills />
