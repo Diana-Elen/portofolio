@@ -1,10 +1,9 @@
 .experience_title {
-    text-align: center;
+    font-size: 1.6rem;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.6rem;
-    padding: 1rem;
-    display: block;
+    text-align: center;
+    width: 100%;
     font-family: 'Nanum_Pen_Script';
 }
 .experience_title:hover {
@@ -17,12 +16,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    width: 90vw;
-    margin-inline: auto;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
     border-radius: 3rem;
+    padding: 1.5rem;
 }
 .experience_container:hover {
     border: 1px solid #66cf2d;
