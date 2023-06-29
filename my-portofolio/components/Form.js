@@ -8,15 +8,15 @@ export default function Form() {
                 <h1 className={styles.title}>Contact me</h1>
                 <label className={styles.form_group}>
                     Name
-                    <input type="text" name="name" placeholder="Name" required/>
+                    <input className={styles.text_input} type="text" name="name" placeholder="Name" required/>
                 </label>
                 <label className={styles.form_group}>
                     Email
-                    <input type="email" name="email" placeholder="user@domain.ext" required/>
+                    <input className={styles.text_input}  type="email" name="email" placeholder="user@domain.ext" required/>
                 </label>
                 <label className={styles.form_group}>
                     Message
-                <textarea placeholder="Contact us" name="message" required>
+                <textarea className={styles.text_input}  placeholder="Contact us" name="message" required>
                 </textarea>
                 </label>
                 <div className={styles.checkbox_group}>
