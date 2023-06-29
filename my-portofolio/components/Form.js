@@ -16,7 +16,7 @@ export default function Form() {
                 </label>
                 <label className={styles.form_group}>
                     Message
-                <textarea className={styles.text_input}  placeholder="Contact us" name="message" required>
+                <textarea className={styles.textarea} placeholder="Contact us" name="message" required>
                 </textarea>
                 </label>
                 <div className={styles.checkbox_group}>
