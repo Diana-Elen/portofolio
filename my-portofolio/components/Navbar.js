@@ -16,7 +16,7 @@ export default function Navbar() {
     
     <div className={styles.navbar_group}>
         <div className={styles.contact_links}>
-            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <a href="https://www.linkedin.com/in/diana-dinu-front-end-dev/" target="_blank">
                 <Image src={linkedin.src} height={50} width={50} className={styles.linkedin} alt="linkedin image">
                 </Image>
             </a>          
