@@ -6,12 +6,6 @@
     width: 100%;
     font-family: 'Nanum_Pen_Script';
 }
-.experience_title:hover {
-    width: 90%;
-    background-color: gainsboro;
-    padding: 1rem;
-    border-radius: 3rem;
-}
 .experience_container {
     width: 95vw;
     display: flex;
