@@ -19,10 +19,6 @@ export default function Form() {
                 <textarea className={styles.textarea} placeholder="Contact us" name="message" required>
                 </textarea>
                 </label>
-                <div className={styles.checkbox_group}>
-                    <input type="checkbox" id="val1" name="accept" required/>
-                    <label>I read the terms and conditions</label>
-                </div>
                 <div className={styles.btn_group}>
                     <button className={styles.button_style} type="reset" value="Reset the form">Reset the form</button>
                     <button className={styles.button_style} type="submit" id="submit" value="Send">
