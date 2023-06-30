@@ -13,7 +13,7 @@
     border: 1px solid #66cf2d;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
 }
-.title {
+.form_title {
     text-align: center;
     font-size: 1.6rem;
     padding: 1rem;
@@ -79,6 +79,11 @@
         width: 60vw;
     }
   }
+  @media (min-width: 500px) {
+    .form_title {
+        font-size: 2.2rem;
+    }
+}
 @media (min-width: 600px) {
     .contact_form {
         width: 50vw;;

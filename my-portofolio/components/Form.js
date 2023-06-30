@@ -5,7 +5,7 @@ export default function Form() {
     return <>
         <form className={styles.background} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
-            <h1 className={styles.title}>Contact me</h1>
+            <h1 className={styles.form_title}>Contact me</h1>
             <label className={styles.form_group}>
                 Name
                 <input className={styles.text_input} type="text" name="name" placeholder="Name" required/>

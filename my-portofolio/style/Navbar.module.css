@@ -16,6 +16,7 @@
     border-radius: 0.5rem;
     text-transform: lowercase;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 .button_design:hover {
     background-color: #66cf2d;

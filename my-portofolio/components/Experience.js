@@ -49,13 +49,13 @@ export default function Experience() {
                 </div>
                     <a href="https://diana-flower-shop.netlify.app/" target="_blank">
                     <Image 
-                    height={300} 
-                    width={300} 
-                    src={imageSrc} 
-                    onMouseOver={changeImageSrc}
-                    onMouseLeave={returnImageSrc}
-                    className={styles.website_image} 
-                    alt="flowershop">
+                        height={300} 
+                        width={300} 
+                        src={imageSrc} 
+                        onMouseOver={changeImageSrc}
+                        onMouseLeave={returnImageSrc}
+                        className={styles.website_image} 
+                        alt="flowershop">
                     </Image>
                     </a>
             </article>
@@ -72,13 +72,13 @@ export default function Experience() {
                 </div>
                 <a href="https://handmade-candles-ignys.netlify.app/" target="_blank">
                     <Image 
-                    height={300} 
-                    width={300} 
-                    src={imageSrc2} 
-                    onMouseOver={changeImageSrc2}
-                    onMouseLeave={returnImageSrc2}
-                    className={styles.website_image} 
-                    alt="flowershop">
+                        height={300} 
+                        width={300} 
+                        src={imageSrc2} 
+                        onMouseOver={changeImageSrc2}
+                        onMouseLeave={returnImageSrc2}
+                        className={styles.website_image} 
+                        alt="flowershop">
                     </Image>
                 </a>
             </article>
@@ -95,13 +95,13 @@ export default function Experience() {
                 </div>
                 <a href="https://iceland-presentation-site.netlify.app/" target="_blank">
                     <Image 
-                    height={300} 
-                    width={300} 
-                    src={imageSrc3} 
-                    onMouseOver={changeImageSrc3}
-                    onMouseLeave={returnImageSrc3}
-                    className={styles.website_image} 
-                    alt="flowershop">
+                        height={300} 
+                        width={300} 
+                        src={imageSrc3} 
+                        onMouseOver={changeImageSrc3}
+                        onMouseLeave={returnImageSrc3}
+                        className={styles.website_image} 
+                        alt="flowershop">
                     </Image>
                 </a>
             </article>
