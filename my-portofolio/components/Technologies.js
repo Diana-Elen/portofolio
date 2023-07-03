@@ -6,6 +6,7 @@ import javascript from "../images/javascript-1.svg"
 import bootstrap from "../images/bootstrap-5-1.svg"
 import github from "../images/github.png"
 import styles from "../style/Technologies.module.css"
+import next_img from "../images/nextjs.svg"
 
 
 export default function Technologies() {
@@ -21,6 +22,7 @@ export default function Technologies() {
             <Image src={bootstrap.src} height={40} width={40} alt="bootstrap image" className={styles.technology_image}></Image>
             <Image src={react.src} height={40} width={40} alt="react image" className={styles.technology_image}></Image>
             <Image src={github.src} height={40} width={40} alt="github image" className={styles.technology_image}></Image>
+            <Image src={next_img.src} height={40} width={40} alt="github image" className={styles.technology_image}></Image>
         </div>
     </div>
     </>
