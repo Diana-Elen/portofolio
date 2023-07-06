@@ -1,28 +1,10 @@
 import { useRef } from 'react';
+import NewComponent from './NewComponent';
 
 export default function CatFriends() {
-  const firstCatRef = useRef(null);
-  const secondCatRef = useRef(null);
-  const thirdCatRef = useRef(null);
-
-  function handleScrollToFirstCat() {
-    firstCatRef.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'nearest',
-      inline: 'center'
-    });
-  }
-
-  function handleScrollToSecondCat() {
-    secondCatRef.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'nearest',
-      inline: 'center'
-    });
-  }
-
-  function handleScrollToThirdCat() {
-    thirdCatRef.current.scrollIntoView({
+  const ref = useRef(null);
+  function handleScroll() {
+    ref.current?.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
       inline: 'center'
@@ -32,13 +14,13 @@ export default function CatFriends() {
   return (
     <>
       <nav>
-        <button onClick={handleScrollToFirstCat}>
+        <button>
           Tom
         </button>
-        <button onClick={handleScrollToSecondCat}>
+        <button>
           Maru
         </button>
-        <button onClick={handleScrollToThirdCat}>
+        <button onClick={handleScroll}>
           Jellylorum
         </button>
       </nav>
@@ -48,25 +30,25 @@ export default function CatFriends() {
             <img
               src="https://placekitten.com/g/200/200"
               alt="Tom"
-              ref={firstCatRef}
+
             />
           </li>
           <li>
             <img
               src="https://placekitten.com/g/300/200"
               alt="Maru"
-              ref={secondCatRef}
+              
             />
           </li>
           <li>
             <img
               src="https://placekitten.com/g/250/200"
               alt="Jellylorum"
-              ref={thirdCatRef}
             />
           </li>
         </ul>
       </div>
+      <NewComponent ref={ref} text="hello world!" />
     </>
   );
 }
