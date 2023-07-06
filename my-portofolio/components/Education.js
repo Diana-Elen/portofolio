@@ -1,8 +1,9 @@
+import { forwardRef } from "react"
 import styles from "../style/Education.module.css"
 
-export default function Education() {
+function Education({texteduc}, ref) {
     return <>
-    <div className={styles.education_container}>
+    <div className={styles.education_container} ref={ref}>{texteduc}
         <div className={styles.education_title}>education</div>
         <div className={styles.education_item}>
             <p className={styles.education_unit}>IT School - certification</p>
@@ -24,3 +25,5 @@ export default function Education() {
     </div>
     </>
 }
+
+export default forwardRef(Education);

@@ -12,9 +12,18 @@ import Education from '@/components/Education'
 import Certificates from '@/components/Certificates'
 import Form from '@/components/Form'
 import Navbar2 from '@/components/Navbar2'
+import { useRef } from 'react'
 
 
 export default function Home() {
+  const refEducation = useRef(null);
+  function handleScrollEducation() {
+    refEducation.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
   return (
     <>
       <Head>
@@ -25,13 +34,14 @@ export default function Home() {
       </Head>
       <div className={styles.background}>
         <div className={styles.page_header}>
+          <button onClick={handleScrollEducation}>press</button>
           <Navbar />
           <JobTitle />
           <About />
         </div>
         <div className={styles.skills_education}>
           <Skills />
-          <Education />
+          <Education ref={refEducation} />
           <Experience />
           <Technologies />   
           <Certificates />
