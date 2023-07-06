@@ -1,10 +1,20 @@
 import { useRef } from 'react';
 import NewComponent from './NewComponent';
+import Skills from './Skills';
 
-export default function CatFriends() {
+export default function Navbar2() {
   const ref = useRef(null);
   function handleScroll() {
     ref.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
+
+  const skillsRef = useRef(null);
+  function handleScroll2() {
+    skillsRef.current?.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
       inline: 'center'
@@ -17,7 +27,7 @@ export default function CatFriends() {
         <button>
           Tom
         </button>
-        <button>
+        <button onClick={handleScroll2}>
           Maru
         </button>
         <button onClick={handleScroll}>
@@ -37,7 +47,6 @@ export default function CatFriends() {
             <img
               src="https://placekitten.com/g/300/200"
               alt="Maru"
-              
             />
           </li>
           <li>
@@ -49,6 +58,7 @@ export default function CatFriends() {
         </ul>
       </div>
       <NewComponent ref={ref} text="hello world!" />
+      <Skills ref={skillsRef} text2="blaaaa bla" />
     </>
   );
 }

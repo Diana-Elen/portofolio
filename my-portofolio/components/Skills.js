@@ -1,8 +1,10 @@
+import { forwardRef } from "react"
 import styles from "../style/Skills.module.css"
+import { Ref } from "react";
 
-export default function Skills() {
+function Skills({text2}, ref) {
     return <>
-    <div className={styles.skills_container} id="skills">
+    <div className={styles.skills_container} ref={ref}>{text2}
         <p className={styles.skills_title}>Skills</p>
         <ul className={styles.skills_list}>
             <li>Responsive web design</li>
@@ -19,3 +21,4 @@ export default function Skills() {
     </div>
     </>
 }
+export default forwardRef(Skills);
