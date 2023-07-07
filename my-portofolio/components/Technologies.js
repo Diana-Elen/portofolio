@@ -8,11 +8,12 @@ import github from "../images/github.png"
 import styles from "../style/Technologies.module.css"
 import next_img from "../images/nextjs.svg"
 import npm_logo from "../images/npm.png"
+import { forwardRef } from "react"
 
 
-export default function Technologies() {
+function Technologies({textteh}, ref) {
     return <>
-    <div className={styles.technologies_container}>
+    <div className={styles.technologies_container} ref={ref}>{textteh}
         <div className={styles.technologies_title}>
             Technologies
         </div>
@@ -29,3 +30,4 @@ export default function Technologies() {
     </div>
     </>
 }
+export default forwardRef(Technologies);

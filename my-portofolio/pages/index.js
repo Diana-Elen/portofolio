@@ -36,6 +36,14 @@ export default function Home() {
       inline: 'center'
     });
   }
+  const refTechnologies = useRef(null);
+  function handleScrollTechnologies() {
+    refTechnologies.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
   return (
     <>
       <Head>
@@ -65,6 +73,7 @@ export default function Home() {
                 <a href="#">Technologies</a>
                 <button onClick={handleScrollEducation}>education</button>
                 <button onClick={handleScrollExperience}>experience</button>
+                <button onClick={handleScrollTechnologies}>technologies</button>
                 <a href="#">Technologies</a>
             </div>
         </div>
@@ -72,6 +81,7 @@ export default function Home() {
         <div className={styles.navbar_buttons}>
             <button onClick={handleScrollEducation}>Education</button>
             <button onClick={handleScrollExperience}>experience</button>
+            <button onClick={handleScrollTechnologies}>technologies</button>
                 
         </div>
     </div>
@@ -82,7 +92,7 @@ export default function Home() {
           <Skills />
           <Education ref={refEducation} />
           <Experience ref={refExperience}/>
-          <Technologies />   
+          <Technologies ref={refTechnologies}/>   
           <Certificates />
           <Form />
           <Navbar2 />
