@@ -97,8 +97,8 @@ export default function Home() {
                 <button onClick={handleScrollCertificates}>certificates</button>
                 <button onClick={handleScrollContact}>contact</button>
             </div>
-        </div>
-        </div>
+            </div>
+            </div>
         <div className={styles.navbar_buttons}>
             <button onClick={handleScrollSkills} className={styles.nav_button}>skills</button>
             <button onClick={handleScrollEducation} className={styles.nav_button}>education</button>
@@ -107,7 +107,7 @@ export default function Home() {
             <button onClick={handleScrollCertificates} className={styles.nav_button}>certificates</button>
             <button onClick={handleScrollContact} className={styles.nav_button}>contact</button>  
         </div>
-    </div>
+          </div>
           <JobTitle />
           <About />
         </div>

@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 .project:hover {
     background-color: gainsboro;
@@ -59,7 +59,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 0.3rem;
 }
 .workplace:hover {
     background-color: gainsboro;
@@ -83,6 +83,9 @@
     .website_image {
         height: 28vh;
         width: auto;
+    }
+    .project {
+        padding: 2rem;
     }
 }
 @media (min-width: 1000px) {

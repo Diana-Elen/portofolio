@@ -12,7 +12,6 @@
     gap: 1rem;
     padding: 1rem;
     border-radius: 3rem;
-    padding: 1.5rem;
 }
 .education_container:hover {
     border: 1px solid #66cf2d;
@@ -28,7 +27,7 @@
 }
 .education_item {
     width: 100%;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0.3rem;
     border-radius: 2rem;
 }
 .education_item:hover {
