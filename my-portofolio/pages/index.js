@@ -44,6 +44,14 @@ export default function Home() {
       inline: 'center'
     });
   }
+  const refSkills = useRef(null);
+  function handleScrollSkills() {
+    refSkills.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
   return (
     <>
       <Head>
@@ -70,15 +78,16 @@ export default function Home() {
             <div className={styles.dropdown_content}>
                 <a href="/About">About me</a>
                 <a href="./#Skills">Skills</a>
-                <a href="#">Technologies</a>
+                <button onClick={handleScrollSkills}>skills</button>
                 <button onClick={handleScrollEducation}>education</button>
                 <button onClick={handleScrollExperience}>experience</button>
                 <button onClick={handleScrollTechnologies}>technologies</button>
-                <a href="#">Technologies</a>
+                
             </div>
         </div>
         </div>
         <div className={styles.navbar_buttons}>
+            <button onClick={handleScrollSkills}>Skills</button>
             <button onClick={handleScrollEducation}>Education</button>
             <button onClick={handleScrollExperience}>experience</button>
             <button onClick={handleScrollTechnologies}>technologies</button>
@@ -89,7 +98,7 @@ export default function Home() {
           <About />
         </div>
         <div className={styles.skills_education}>
-          <Skills />
+          <Skills ref={refSkills}/>
           <Education ref={refEducation} />
           <Experience ref={refExperience}/>
           <Technologies ref={refTechnologies}/>   
