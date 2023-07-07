@@ -6,9 +6,9 @@ import candles_image from "../images/candles_website.webp"
 import candles_website2 from "../images/candles_website2.webp"
 import iceland from "../images/iceland.webp"
 import iceland2 from "../images/iceland2.webp"
-import { useState } from "react"
+import { forwardRef, useState } from "react"
 
-export default function Experience() {
+function Experience({textexp}, ref) {
     const [imageSrc, setImageSrc] = useState(flowershop);
     const changeImageSrc = () => {
       setImageSrc(flowershop2);
@@ -34,7 +34,7 @@ export default function Experience() {
     }
       
     return <>
-    <div className={styles.experience_container}>
+    <div className={styles.experience_container} ref={ref}>{textexp}
         <p className={styles.experience_title}>experience</p>
             <article className={styles.project}>
                 <div>
@@ -156,3 +156,5 @@ export default function Experience() {
     </div>
     </>
 }
+
+export default forwardRef(Experience);
