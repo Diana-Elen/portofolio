@@ -33,7 +33,7 @@ export default function Navbar() {
                 <a href="#">Experience</a>
                 <a href="#">Technologies</a>
             </div>
-    </div>
+        </div>
         </div>
         <div className={styles.navbar_buttons}>
                 {Button}

@@ -14,6 +14,10 @@ import Form from '@/components/Form'
 import Navbar2 from '@/components/Navbar2'
 import { useRef } from 'react'
 
+import Image from "next/image"
+import github from "../images/github.svg"
+import linkedin from "../images/linkedin.png"
+
 
 export default function Home() {
   const refEducation = useRef(null);
@@ -34,8 +38,34 @@ export default function Home() {
       </Head>
       <div className={styles.background}>
         <div className={styles.page_header}>
-          <button onClick={handleScrollEducation}>press</button>
-          <Navbar />
+          
+          <div className={styles.navbar_group}>
+        <div className={styles.contact_links}>
+            <a href="https://www.linkedin.com/in/diana-dinu-front-end-dev/" target="_blank">
+                <Image src={linkedin.src} height={50} width={50} className={styles.linkedin} alt="linkedin image">
+                </Image>
+            </a>          
+            <a href="https://github.com/Diana-Elen" target="_blank">
+                <Image src={github.src} height={50} width={50} className={styles.github} alt="github image">
+                </Image>
+            </a>
+            <div className={styles.dropdown}>
+            <button className={styles.dropbtn}>Menu</button>
+            <div className={styles.dropdown_content}>
+                <a href="/About">About me</a>
+                <a href="./#Skills">Skills</a>
+                <a href="#">Technologies</a>
+                <button onClick={handleScrollEducation}>education</button>
+                <a href="#">Experience</a>
+                <a href="#">Technologies</a>
+            </div>
+        </div>
+        </div>
+        <div className={styles.navbar_buttons}>
+            <button onClick={handleScrollEducation}>Education</button>
+                
+        </div>
+    </div>
           <JobTitle />
           <About />
         </div>
