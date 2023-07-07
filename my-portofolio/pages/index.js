@@ -52,6 +52,22 @@ export default function Home() {
       inline: 'center'
     });
   }
+  const refCertificates = useRef(null);
+  function handleScrollCertificates() {
+    refCertificates.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
+  const refContact = useRef(null);
+  function handleScrollContact() {
+    refContact.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
   return (
     <>
       <Head>
@@ -62,9 +78,8 @@ export default function Home() {
       </Head>
       <div className={styles.background}>
         <div className={styles.page_header}>
-          
           <div className={styles.navbar_group}>
-        <div className={styles.contact_links}>
+            <div className={styles.contact_links}>
             <a href="https://www.linkedin.com/in/diana-dinu-front-end-dev/" target="_blank">
                 <Image src={linkedin.src} height={50} width={50} className={styles.linkedin} alt="linkedin image">
                 </Image>
@@ -76,13 +91,12 @@ export default function Home() {
             <div className={styles.dropdown}>
             <button className={styles.dropbtn}>Menu</button>
             <div className={styles.dropdown_content}>
-                <a href="/About">About me</a>
-                <a href="./#Skills">Skills</a>
                 <button onClick={handleScrollSkills}>skills</button>
                 <button onClick={handleScrollEducation}>education</button>
                 <button onClick={handleScrollExperience}>experience</button>
                 <button onClick={handleScrollTechnologies}>technologies</button>
-                
+                <button onClick={handleScrollCertificates}>certificates</button>
+                <button onClick={handleScrollContact}>contact</button>
             </div>
         </div>
         </div>
@@ -91,7 +105,8 @@ export default function Home() {
             <button onClick={handleScrollEducation}>Education</button>
             <button onClick={handleScrollExperience}>experience</button>
             <button onClick={handleScrollTechnologies}>technologies</button>
-                
+            <button onClick={handleScrollCertificates}>certificates</button>
+            <button onClick={handleScrollContact}>contact</button>  
         </div>
     </div>
           <JobTitle />
@@ -102,9 +117,8 @@ export default function Home() {
           <Education ref={refEducation} />
           <Experience ref={refExperience}/>
           <Technologies ref={refTechnologies}/>   
-          <Certificates />
-          <Form />
-          <Navbar2 />
+          <Certificates ref={refCertificates}/>
+          <Form ref={refContact}/>
         </div>
         <Footer />
       </div>

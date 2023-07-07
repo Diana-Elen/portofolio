@@ -1,8 +1,9 @@
+import { forwardRef } from "react"
 import styles from "../style/Certificates.module.css"
 
-export default function Certificates() {
+function Certificates ({textcertif}, ref) {
     return <>
-    <div className={styles.certificates_container}>
+    <div className={styles.certificates_container} ref={ref}>{textcertif}
         <p className={styles.certificates_title}>
             Certificates
         </p>
@@ -13,3 +14,4 @@ export default function Certificates() {
     </div>    
     </>
 }
+export default forwardRef(Certificates);

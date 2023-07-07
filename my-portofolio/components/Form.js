@@ -1,9 +1,11 @@
+import { forwardRef } from "react"
 import styles from "../style/Form.module.css"
 
 
-export default function Form() {
+function Form({textform}, ref) {
     return <>
-        <form className={styles.background} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className={styles.background} ref={ref} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            {textform}
             <input type="hidden" name="form-name" value="contact" />
             <h1 className={styles.form_title}>Contact me</h1>
             <label className={styles.form_group}>
@@ -28,3 +30,4 @@ export default function Form() {
         </form>
     </>
 }
+export default forwardRef(Form);
