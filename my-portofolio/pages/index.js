@@ -100,12 +100,12 @@ export default function Home() {
         </div>
         </div>
         <div className={styles.navbar_buttons}>
-            <button onClick={handleScrollSkills}>Skills</button>
-            <button onClick={handleScrollEducation}>Education</button>
-            <button onClick={handleScrollExperience}>experience</button>
-            <button onClick={handleScrollTechnologies}>technologies</button>
-            <button onClick={handleScrollCertificates}>certificates</button>
-            <button onClick={handleScrollContact}>contact</button>  
+            <button onClick={handleScrollSkills} className={styles.nav_button}>skills</button>
+            <button onClick={handleScrollEducation} className={styles.nav_button}>education</button>
+            <button onClick={handleScrollExperience} className={styles.nav_button}>experience</button>
+            <button onClick={handleScrollTechnologies} className={styles.nav_button}>technologies</button>
+            <button onClick={handleScrollCertificates} className={styles.nav_button}>certificates</button>
+            <button onClick={handleScrollContact} className={styles.nav_button}>contact</button>  
         </div>
     </div>
           <JobTitle />
