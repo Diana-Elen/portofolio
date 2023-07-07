@@ -11,7 +11,6 @@ import Footer from '@/components/Footer'
 import Education from '@/components/Education'
 import Certificates from '@/components/Certificates'
 import Form from '@/components/Form'
-import Navbar2 from '@/components/Navbar2'
 import { useRef } from 'react'
 
 import Image from "next/image"
