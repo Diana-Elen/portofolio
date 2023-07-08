@@ -18,7 +18,7 @@ function Form({textform}, ref) {
             </label>
             <label className={styles.form_group}>
                 Message
-            <textarea className={styles.textarea} placeholder="Contact us" name="message" required>
+            <textarea className={styles.textarea} placeholder="Write me a message" name="message" required>
             </textarea>
             </label>
             <div className={styles.btn_group}>
