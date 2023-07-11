@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 0.5rem;
+    padding: 0.5rem 3rem;
 }
 .project:hover {
     background-color: gainsboro;

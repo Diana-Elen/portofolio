@@ -5,9 +5,11 @@
     font-family: 'Nanum_Pen_Script';
 }
 .skills_container {
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 0.5rem;
     padding: 1.5rem 0.3rem;
     border-radius: 3rem;
@@ -37,7 +39,12 @@
 }
 @media (min-width: 550px) {
     .skills_container {
-        width: 40vw;
+        width: 45vw;
+    }
+}
+@media (min-width: 900px) {
+    .skills_container {
+        width: 30vw;
     }
 }
 @font-face {

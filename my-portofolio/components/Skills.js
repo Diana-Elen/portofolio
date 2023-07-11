@@ -12,6 +12,7 @@ function Skills({text2}, ref) {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>Next</li>
             <li>Bootstrap</li>
             <li>Problem-solving</li>
             <li>Strong Communication</li>
