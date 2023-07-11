@@ -3,15 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding: 2rem;
+    gap: 0.5rem;
+    padding: 2rem 4rem;
+    border-radius: 3rem;
+}
+.certificates_container:hover {
+    border: 3px solid #66cf2d;
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
 }
 .certificates {
     font-weight: bold;
 }
 .certificates:hover {
     color: green;
-    background-color: cadetblue;
 }
 .certificates_title {
     text-align: center;
