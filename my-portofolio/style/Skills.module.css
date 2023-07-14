@@ -29,7 +29,7 @@
     padding: 0.3rem;
 }
 .skills_list li:hover {
-    background-color: #66cf2d;
+    text-decoration: underline;
     width: 100%;
 }
 @media (min-width: 500px) {
