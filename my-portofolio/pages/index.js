@@ -87,17 +87,6 @@ export default function Home() {
                 <Image src={github.src} height={50} width={50} className={styles.github} alt="github image">
                 </Image>
             </a>
-            <div className={styles.dropdown}>
-            <button className={styles.dropbtn}>Menu</button>
-            <div className={styles.dropdown_content}>
-                <button onClick={handleScrollSkills}>skills</button>
-                <button onClick={handleScrollEducation}>education</button>
-                <button onClick={handleScrollExperience}>experience</button>
-                <button onClick={handleScrollTechnologies}>technologies</button>
-                <button onClick={handleScrollCertificates}>certificates</button>
-                <button onClick={handleScrollContact}>contact</button>
-            </div>
-            </div>
             </div>
         <div className={styles.navbar_buttons}>
             <button onClick={handleScrollSkills} className={styles.nav_button}>skills</button>

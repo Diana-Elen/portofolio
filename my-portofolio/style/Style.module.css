@@ -21,15 +21,35 @@
     gap: 2rem;
 }
 .navbar_group {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    display: block;
     width: 100vw;
     margin: 0.5rem 4rem 0rem 0rem;
 }
 .navbar_buttons {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar_buttons {
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    height: 6vh;
+}
+.nav_button {
+    padding: 0.1rem 0.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+}
+.nav_button:hover {
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
+    background-color: #66cf2d;        
 }
 .button_design {
     background-color: black;
@@ -57,9 +77,7 @@
     gap: 1rem;
     margin-left: 2rem;
 }
-.linkedin, .github {
-    display: none;
-}
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -114,29 +132,7 @@
     .dropdown {
         display: none;
     }
-    .navbar_buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 1rem 2rem;
-        height: 6vh;
-    }
-    .nav_button {
-        padding: 0.1rem 0.5rem;
-        border: none;
-        font-weight: bold;
-        cursor: pointer;
-        background-color: white;
-        font-size: 1.2rem;
-        padding: 0.3rem 0.6rem;
-        border-radius: 0.3rem;
-    }
-    .nav_button:hover {
-        box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(77, 78, 78, 0.5);
-        background-color: #66cf2d;        
-    }
+   
     .navbar_group {
         display: flex;
         flex-direction: row;
