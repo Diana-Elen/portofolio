@@ -59,7 +59,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
-    padding: 1.5rem 0.3rem;
+    padding: 1.5rem 3rem;
 }
 .workplace:hover {
     background-color: gainsboro;

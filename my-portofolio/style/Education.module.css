@@ -29,6 +29,7 @@
     width: 100%;
     padding: 1.5rem 0.3rem;
     border-radius: 2rem;
+    padding-inline: 1rem;
 }
 .education_item:hover {
     background-color: gainsboro;
