@@ -76,9 +76,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.background}>
-        <div className={styles.page_header}>
-          <div className={styles.navbar_group}>
-            <div className={styles.contact_links}>
+        <div className={styles.navbar_group}>
+          <div className={styles.contact_links}>
             <a href="https://www.linkedin.com/in/diana-dinu-front-end-dev/" target="_blank">
                 <Image src={linkedin.src} height={50} width={50} className={styles.linkedin} alt="linkedin image">
                 </Image>
@@ -87,20 +86,19 @@ export default function Home() {
                 <Image src={github.src} height={50} width={50} className={styles.github} alt="github image">
                 </Image>
             </a>
-            </div>
-        <div className={styles.navbar_buttons}>
-            <button onClick={handleScrollSkills} className={styles.nav_button}>skills</button>
-            <button onClick={handleScrollEducation} className={styles.nav_button}>education</button>
-            <button onClick={handleScrollExperience} className={styles.nav_button}>experience</button>
-            <button onClick={handleScrollTechnologies} className={styles.nav_button}>technologies</button>
-            <button onClick={handleScrollCertificates} className={styles.nav_button}>certificates</button>
-            <button onClick={handleScrollContact} className={styles.nav_button}>contact</button>  
-        </div>
           </div>
-          <JobTitle />
-          <About />
+          <div className={styles.navbar_buttons}>
+              <button onClick={handleScrollSkills} className={styles.nav_button}>skills</button>
+              <button onClick={handleScrollEducation} className={styles.nav_button}>education</button>
+              <button onClick={handleScrollExperience} className={styles.nav_button}>experience</button>
+              <button onClick={handleScrollTechnologies} className={styles.nav_button}>technologies</button>
+              <button onClick={handleScrollCertificates} className={styles.nav_button}>certificates</button>
+              <button onClick={handleScrollContact} className={styles.nav_button}>contact</button>  
+          </div>
         </div>
         <div className={styles.skills_education}>
+          <JobTitle />
+          <About />
           <Skills ref={refSkills}/>
           <Education ref={refEducation} />
           <Experience ref={refExperience}/>
