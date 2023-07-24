@@ -2,8 +2,10 @@
 
 # dependencies
 /node_modules
+/node_modules/@babel/runtime/*
 /.pnp
 .pnp.js
+dist
 
 # testing
 /coverage
@@ -33,3 +35,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/.node_modules/@babel/runtime/*
+node_modules
+.next/
+.swc/
+.*.env
+
+node_modules/
+.DS_Store
+dist/
