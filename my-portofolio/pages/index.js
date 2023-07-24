@@ -12,13 +12,14 @@ import Education from '@/components/Education'
 import Certificates from '@/components/Certificates'
 import Form from '@/components/Form'
 import { useRef } from 'react'
-
 import Image from "next/image"
 import github from "../images/github.svg"
 import linkedin from "../images/linkedin.png"
+import TechnologiesDescription from '@/components/TechnologiesDescription'
 
 
 export default function Home() {
+  
   const refEducation = useRef(null);
   function handleScrollEducation() {
     refEducation.current?.scrollIntoView({
@@ -106,6 +107,8 @@ export default function Home() {
           <Certificates ref={refCertificates}/>
           <Form ref={refContact}/>
         </div>
+        <TechnologiesDescription />
+      
         <Footer />
       </div>
     </>
