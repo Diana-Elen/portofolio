@@ -36,8 +36,9 @@ function Technologies({textteh}, ref) {
                 title="css"
                 isActive={activeIndex === 1}
                 onShow={() => setActiveIndex(1)}
-            > CSS stands for Cascading Style Sheets · CSS describes how HTML elements are to be displayed on screen, paper, or in other media                 
+            > 
             <Image src={css.src} height={40} width={40} alt="css image" className={styles.technology_image}></Image>
+            <div>CSS stands for Cascading Style Sheets  </div>                
             </Technology>
 
             <Image src={css.src} height={40} width={40} alt="css image" className={styles.technology_image}></Image>

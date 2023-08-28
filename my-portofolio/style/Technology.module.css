@@ -3,6 +3,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     gap: 1rem;
+    padding: 1rem;
+    height: 10vh;
+    width: 60vw;
+}
+.button_style {
+    background-color: pink;
+    padding: 0.2rem 0.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.par {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
