@@ -14,7 +14,7 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-.par {
+.paragraph_tech {
     display: flex;
     flex-direction: row;
     justify-content: center;

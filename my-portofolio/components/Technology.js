@@ -4,7 +4,7 @@ export default function Technology({isActive, title, onShow, children}) {
     return <>
     <div className={style.technology}>
         {isActive ? (
-            <p className={style.par}>{children}</p>
+            <p className={style.paragraph_tech}>{children}</p>
         ) : (
             <button onClick={onShow} className={style.button_style}>
                 {title}
